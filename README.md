@@ -25,3 +25,5 @@ python setup.py install
 Goto - https://chromedriver.chromium.org/downloads and select the appropriate version.
 
 Unzip the file run and chromedriver.exe
+
+5) Run attendance.py using Pycharm
