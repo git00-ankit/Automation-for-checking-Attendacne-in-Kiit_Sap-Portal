@@ -19,7 +19,7 @@ chrome_options.add_experimental_option("detach", True)
 
 driver = webdriver.Chrome(options=chrome_options)
 driver.get("https://kiitportal.kiituniversity.net/irj/portal/")
-driver.implicitly_wait(5)
+driver.implicitly_wait(15)
 
 ids = driver.find_elements(By.ID, "logonuidfield")
 
@@ -54,12 +54,12 @@ driver.maximize_window()
 
 driver.execute_script("document.body.style.zoom = '125%'")
 
+
 driver.execute_script("window.scrollTo(0,document.body.scrollHeight);")
 driver.execute_script("window.scrollTo(0,document.body.scrollHeight);")
 time.sleep(2)
 
 driver.save_screenshot("s1.png")
-
 
 time.sleep(60)
 driver.quit()
