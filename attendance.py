@@ -50,6 +50,16 @@ driver.find_element(By.ID, 'WD6E').click()
 driver.find_element(By.ID, 'WD71').click()
 driver.find_element(By.ID, 'WD7B').click()
 
+driver.maximize_window()
+
+driver.execute_script("document.body.style.zoom = '125%'")
+
+driver.execute_script("window.scrollTo(0,document.body.scrollHeight);")
+driver.execute_script("window.scrollTo(0,document.body.scrollHeight);")
+time.sleep(2)
+
+driver.save_screenshot("s1.png")
+
 
 time.sleep(60)
 driver.quit()
