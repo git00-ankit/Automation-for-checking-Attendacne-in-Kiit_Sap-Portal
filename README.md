@@ -2,9 +2,7 @@
 
 Steps : 
 1) Install python
-2) Install Pycharm
-
-3) Install Selenium :
+2) Install Selenium :
  
 Whatever Operating System You are Using Python command is Same for Installing Selenium Library.\
 
@@ -20,10 +18,10 @@ https://pypi.org/project/selenium/
 Unarchive it, and run the command below: 
 python setup.py install
 
-4) Install Chrome Webdriver :
+3) Install Chrome Webdriver :
 
 Goto - https://chromedriver.chromium.org/downloads and select the appropriate version.
 
 Unzip the file run and chromedriver.exe
 
-5) Run attendance.py using Pycharm
+4) Run attendance.py using any IDE
