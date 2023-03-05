@@ -24,4 +24,4 @@ Goto - https://chromedriver.chromium.org/downloads and select the appropriate ve
 
 Unzip the file run and chromedriver.exe
 
-4) Run attendance.py using any IDE
+4) Run attendance.py using any IDE after providing your Roll No. and Password.
