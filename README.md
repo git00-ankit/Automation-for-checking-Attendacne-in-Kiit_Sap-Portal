@@ -33,6 +33,7 @@ To convert python code to .exe file :
 1) Run the following commands
 
 pip install pyinstaller
+
 pyinstaller --onefile your_script_name.py
 
 2)Go to dist folder and run the .exe file.
