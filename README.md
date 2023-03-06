@@ -36,7 +36,7 @@ pip install pyinstaller
 
 pyinstaller --onefile your_script_name.py
 
-2)Go to dist folder and run the .exe file.
+2)Go to dist folder and run the .exe file
 
 
 
